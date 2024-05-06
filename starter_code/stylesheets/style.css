@@ -276,34 +276,118 @@ footer{
 }
 
 @media (min-width: 768px) and (max-width:1024px){
+
+    /* <--header section--> */
+
     header{
         background-image: url('../images/background-singup.png');
         background-repeat: no-repeat;
         background-size: cover;
         flex-direction: row;
         justify-content: space-between;
-        height: 70rem;
-        padding: 2rem 3rem;
+        height: 85rem;
+        padding: 2rem 0 2rem 3rem;
     }
-    /* .header.div{
-    } */
+    .header-div{
+       padding-bottom: 10rem;
+    }
     h1{
-        width: 30rem;
+        width: 34rem;
         text-align: left;
-        font-size: 6.5rem;
+        font-size: 7rem;
         font-weight: 500;
     }
     .header-p{
-        width: 24rem;
+        width: 30rem;
+        font-size: 2.2rem;
         text-align: left;
     }
     .header-button{
         width: 40rem;
+        margin-left: 0;
     }
     .hero-div{
-        width: 70rem;
+       height: 100%;
     }
     .header-hero-logo{
-        transform: scale(1.5);
+        top: 20rem;
+        left: 18rem;
+        transform: scale(1.8);
+        width: 70rem;
+    }
+
+    /* <--company section--> */
+    .company-section{
+        height: 21rem;
+    }
+
+    .logo1{
+        top: 1.3rem;
+        left: 3rem;
+        bottom: 1rem;
+        width: 10rem;
+    }
+    .logo2{
+        top: 2.3rem;
+        left: 3.5rem;
+        width: 6rem;
+    }
+    .logo3{
+        top: 2.1rem;
+        left: 4rem;
+        bottom: 0.5rem;
+        width: 7rem;
+    }
+    .logo4{
+        top: 2.5rem;
+        bottom: 0.2rem;
+        left: 4.5rem;
+        width: 5rem;
+    }
+    .logo5{
+
+        left: 5rem;
+        width: 18rem;
+    }
+    .logo6{
+        
+        left: 5rem;
+        width: 13rem;
+    }
+
+    /* <--statistics section--> */
+
+    .statistics-section > ul{
+        flex-direction: row;
+        justify-content:space-evenly;
+        text-align: left;
+    }
+    
+    /* <--signup section--> */
+
+    .signup-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .signup-h3{
+        font-size: 3.5rem;
+    }
+    .signup-button{
+        width: 60rem;
+    }
+    
+    /* footer section */
+
+    .links-ul{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 2rem;
+    }
+    .icon-ul{
+        width:33rem;
+        justify-content: space-between;
+        padding: 0 2rem;
+        padding-bottom: 5rem;
     }
 }
